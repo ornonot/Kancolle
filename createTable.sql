@@ -1,0 +1,15 @@
+create TABLE poyo.Expedition
+(ExpeditionId int,
+ExpeditionName varchar(20),
+GainFuel int,
+GainAmmunition int,
+GainSteel int,
+GainBauxite int,
+GainRepair varchar(6),
+GainBox varchar(6),
+GainMaterial varchar(6),
+ExpendedHours TIME,
+FlagLevel int,
+SumLevel int,
+MinimumShipNumber int,
+Cautions varchar(50))
